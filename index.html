@@ -45,7 +45,17 @@
 <section class="section-about hro-section">
     <div class="container">
     <h1 class="section-title text-about">Эффективные решения для вашего бизнеса</h1>
-    <button class="button-hero" type="button">Заказать услугу</button>
+    <button class="button-hero" type="button" data-modal-open>Заказать услугу</button>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-button" type="button" data-modal-close>
+                <svg class="icon-close">
+                    <use href="./imiges/close-black.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="modal-text">WhatsApp</p>
+        </div>
     </div>
 </section>
 <!--Block 2-->
@@ -337,7 +347,7 @@
                 </address>
                 </div>
                 <div class="container-social">
-                    <h2 class="title-social">присоединяйтесь</h2>
+                    <p class="title-social">присоединяйтесь</p>
                     <ul class="listes list-social">
                         <li class="item-social icon-social">
                             <a class="footer-link" href="">
@@ -371,5 +381,6 @@
                 </div>
             </div>
     </footer>
+    <script src="./js/modal.js"></script>
     </body>
 </html>
