@@ -384,6 +384,22 @@ ul {
     margin: -15px;
 }
 
+.work-mark {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--bg-color);
+    background-color: rgb(47, 48, 58, 0.8);
+}
+
 .caption-img:nth-child(2) {
     margin-right: 30px;
     margin-left: 30px;
